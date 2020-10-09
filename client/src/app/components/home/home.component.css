@@ -1,0 +1,283 @@
+.carousel-inner img {
+
+    width: 500px;
+    height: 450px;
+}
+#services
+{
+   
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../../assets/image/Books/Service.jpg);
+
+    background-size: cover;
+    background-position: center;
+    color:#efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services 
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 85px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#services p
+{
+  font-size: 14px;
+  margin-top: 20px;
+  color:#ccc;  
+}
+.services .col-md-3:hover
+{
+    background: #ec3a0eab;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 50px;
+}
+
+/*-------------------About----------------------------*/
+#about
+{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+
+}
+.skills-bar
+{
+    margin-top: 15px;
+   
+}
+.skills-bar p
+{
+  margin-bottom: 10px;
+  font-weight: 600;  
+}
+.progress-bar{
+
+    border-radius: 16px;
+    background-color: #ec3a0e;;
+    
+}
+.progress{
+    border-radius: 16px !important ;
+    margin-bottom: 20px;
+    color: #ec3a0e;
+}
+/*PROMO*/
+
+#promo
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../../assets/image/Books/Service.jpg);
+    background-size:cover ;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+/*ENDPROMO*/
+/*GEt in touch*/
+
+  
+#contact .form-control {
+    border: none;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  
+ #contact .form-control:focus {
+    border-bottom-color: #ec3a0e;;
+  }
+
+  #contact input {
+    height: 55px;
+    
+  }
+  
+  #contact button#submit {
+    background: #2b2b2b;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    height: 50px;
+    margin-top: 24px;
+  }
+  
+  #contact button#submit:hover {
+    background: #ec3a0e;
+    color: #ffffff;
+  };
+.contact{
+	text-align:center;
+}
+/*THE BOX INFO*/
+
+.contact-box{
+	 background: rgba(141, 138, 138, 0.22);
+	 height: 365px;
+	 padding:15px;
+}
+.contact-box ul li{
+	margin-bottom:0px;
+    padding:8px;
+    text-align: center;
+}
+.contact i {
+    font-size: 25px;
+    color: #ec3a0e;
+}
+.form-box-inner {
+    background: rgba(141, 138, 138, 0.22);
+    padding: 15px;
+}
+  
+.contacto {
+    background-color:  #efefef  !important;
+
+}
+.contact {
+    border: solid 1px;
+    border-color: rgba(141, 138, 138, 0.22);
+    background-color:#ffffff ;
+}
+.contact:hover {
+    background-color: #ec3a0e ;
+    cursor: pointer;
+    
+}
+
+
+/*FOOTER*/
+
+.bg-grey {
+    background: #292929;
+ }
+ .logo-footer {
+    margin-bottom: 40px;
+ }
+ footer {
+        color: grey;
+ }
+ footer p, a {
+font-size: 12px;
+font-family: 'Roboto', sans-serif;
+}
+footer h6 {
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+position: relative;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: grey;
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+ .btn-footer {
+             color: grey;
+          
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 43px;
+            font-size: 13px;
+            padding: 7px 30px;
+            line-height: 47px;
+ }
+ .btn-footer:hover {
+            
+            text-decoration: none;
+           
+ }
+.form-footer input[type="text"] {
+    border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 20px;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#232323;
+    margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+ .social .fa {
+color: grey;
+font-size: 11px;
+padding: 10px 15px;
+background: #3c3c3c;
+}
+ footer ul li {
+list-style: none;
+display: block;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color: grey;
+text-decoration:none;
+}
+a:hover {
+text-decoration: none;
+color: #ec3a0e !important;
+
+}
+
+.logo-part {
+border-right: 1px solid grey;
+height: 100%;
+}
